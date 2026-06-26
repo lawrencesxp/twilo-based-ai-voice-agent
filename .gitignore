@@ -1,0 +1,15 @@
+# Secrets
+.env
+
+# Generated outputs (commit these deliberately when ready to submit, if you choose)
+# Comment these out if you WANT to commit your recordings/transcripts to the repo.
+recordings/
+transcripts/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+.DS_Store
