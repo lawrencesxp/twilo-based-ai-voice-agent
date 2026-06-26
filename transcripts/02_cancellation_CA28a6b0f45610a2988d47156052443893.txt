@@ -1,0 +1,16 @@
+Scenario: 02_cancellation
+Probe: Cancellation flow + does it verify identity / find the real appointment first?
+Call SID: CA28a6b0f45610a2988d47156052443893
+Saved: 20260625-190241
+============================================================
+
+PATIENT: [Waiting for the
+AGENT: This call may be recorded for quality and training purposes. Para español, oprima el dos.
+AGENT: Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. May I see you with Maria?
+PATIENT: Hi, this is Maria Delgado. I’d like to cancel my appointment for tomorrow afternoon.
+AGENT: Please provide your date of birth.
+PATIENT: Sure, my date of birth is July 4, 2000.
+PATIENT: Okay, thanks for letting me know. I'll hold on.
+AGENT: I can't cancel your appointment right now, but I'll connect you to our patient support team for help. Please stay on the line. Connecting you to a representative. Please wait.
+PATIENT: Goodbye.
+AGENT: Hello, you've reached the Pretty Good AI test line. Goodbye.

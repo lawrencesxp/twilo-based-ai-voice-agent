@@ -1,0 +1,26 @@
+Scenario: 12_constraint_overload
+Probe: Long-context tracking: does it honor a stack of constraints or quietly drop one?
+Call SID: CAa4896c46c5407a1015f5234e973e48b4
+Saved: 20260625-195940
+============================================================
+
+AGENT: This call may be recorded for quality and training purposes. Para español, oprima el dos.
+AGENT: Thanks for calling Pivot Point Orthopedics, part of PrettyGoodAI. Am I speaking with Maria?
+PATIENT: Yes, this is Maria Delgado. I'm calling to book an appointment.
+AGENT: Please provide your date of birth.
+PATIENT: Sure, my date of birth is July 4th, 2000.
+AGENT: Thanks, Maria. What are we doing today? Are you looking for a routine visit, a follow-up, or do you have a specific concern?
+PATIENT: I’d like to book a routine visit, please. I'm looking for an appointment next week, but not on Monday or Tuesday, and only in the mornings. It has to be with a female provider, after the 15th, and not on the 22nd.
+AGENT: We have openings for a routine visit with Dr. Kelly Noble, a female provider, on Wednesday, July 1st and Thursday, July 2nd. Would you like to hear available times for either of those days?
+PATIENT: Actually, I need the appointment to be after the 15th, not before. Could you check for availability after the 15th?
+AGENT: The openings I mentioned are after the 15th of June. Would you like to hear available times with Dr. Kelly Noble on July 1st or July 2nd?
+PATIENT: Oh, I see. I’m actually looking for a date after the 15th of July, not June. Could you check for dates after the 15th?
+AGENT: We have openings with Dr. Kelly Noble, a female provider, on Thursday, July 16th. Would you like a morning or late morning time? I can share a few options.
+PATIENT: Morning would be great. Could you share a few options for the late morning, please?
+AGENT: Dr. Kelly Noble has openings on Thursday, July sixteenth at 10, 10:30, and 11 a.m. Would you like to book one of these times?
+PATIENT: I’d like to go with 10:30 AM on Thursday, July 16th. Could you confirm that’s all set?
+AGENT: Your appointment is set for Thursday, July 16th at 10:30 a.m. with Dr. Kelly Noble at Pidett Point Orthopedics. Please bring your photo ID, insurance card, a list of your current medications, and any imaging discs you have. Would you like a text message with these details?
+PATIENT: Yes, that would be great. Please send a text message with the details. Thank you.
+AGENT: You'll get a text with your appointment details soon. If you have any other questions or need to make changes, just let me know.
+PATIENT: Thank you so much. That’s all I need right now. Goodbye!
+AGENT: You're all set, Maria. Have a great day. Goodbye.

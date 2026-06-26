@@ -1,0 +1,34 @@
+Scenario: 18_closed_day_booking
+Probe: Logic consistency: will it book/offer a slot on a day it states it is closed?
+Call SID: CA7b631eb673c0c0c67b28af384b1c5277
+Saved: 20260625-205524
+============================================================
+
+AGENT: This call may be recorded for quality and training purposes. Para español, oprima el dos.
+AGENT: Thanks for calling Pivot Point Orthopedics, part of PrettyGoodAI. Am I speaking with Maria?
+PATIENT: Yes, this is Maria Delgado. Could you tell me what days the clinic is open?
+AGENT: Please tell me your date of birth.
+PATIENT: Sure, my date of birth is July 4th, 2000.
+AGENT: How can I help you today?
+PATIENT: Hi, I’d like to know what days the clinic is open, please.
+AGENT: The clinic is open Monday through Friday. Would you like to know the specific hours for each day?
+PATIENT: Yes, that would be helpful. What are the hours for each day?
+AGENT: Here are the clinic hours: Monday, Tuesday, and Thursday, 9 a.m. to 4 p.m.; Wednesday, 12 p.m. to 7 p.m.; Friday, 9 a.m. to 12 p.m. Is there anything else you'd like to know?
+PATIENT: Great, thanks for that. So, can I come in this Saturday morning?
+AGENT: The clinic is closed on Saturdays. Would you like to schedule an appointment for a weekday instead?
+PATIENT: Oh, I see. Actually, I was hoping to come in this Saturday morning. Are you sure you're closed?
+AGENT: Yes, the clinic is definitely closed on Saturdays. The earliest available day is Monday. Would you like to book an appointment for Monday or another weekday?
+PATIENT: Okay, let me confirm that I understand. You’re saying Monday would be the next available day. But earlier you mentioned the clinic is closed on Saturdays. So, can I book for Saturday morning, or is that not possible?
+AGENT: You cannot book for Saturday morning. The clinic is closed on Saturdays. The next available day is Monday. Would you like to schedule an appointment for Monday?
+PATIENT: Got it, thanks for clarifying. Yes, let's go ahead and schedule for Monday. Can we set it for the morning, around 10 a.m.?
+AGENT: Sure, before I schedule, can you tell me the reason for your visit? For example, is this a routine checkup, a new patient consultation, or something else?
+PATIENT: This would be a routine checkup.
+AGENT: It looks like you already have a routine checkup appointment booked. If you want, I can help you reschedule or cancel your existing appointment, or I can connect you to a team member for more help.
+AGENT: What would you like to do?
+PATIENT: I’d like to confirm the appointment for Monday at 10 a.m. Could you also let me know what I should bring?
+AGENT: I'm unable to confirm a new appointment for Monday at 10 a.m. because you already have a routine checkup booked. If you'd like, I can check the details of your current appointment or help you reschedule it. For your visit, please bring a photo ID, your insurance card, a list of current medications, and any recent medical records if you have them. Would you like to review or change your existing appointment?
+PATIENT: Okay, I understand. Let’s go ahead and confirm those details for the current appointment. Thank you for the information on what to bring.
+AGENT: I can help with that. Please hold on while I check the details of your current appointment. Let me check the details of your current appointment. One moment.
+PATIENT: Sure, take your time. I'll hold on.
+AGENT: Actually, I don't have access to your exact appointment details right now. For confirmation or changes, please contact the clinic directly and they can provide all the specifics. Is there anything else I can help you with today?
+PATIENT: Okay, I understand. Thank you for letting me know. I’ll call the clinic directly for confirmation. I appreciate your help. Goodbye.

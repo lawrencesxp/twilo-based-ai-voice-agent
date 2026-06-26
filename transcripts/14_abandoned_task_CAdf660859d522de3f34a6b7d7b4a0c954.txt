@@ -1,0 +1,20 @@
+Scenario: 14_abandoned_task
+Probe: Task switching: does it cleanly drop a half-finished task, or stay stuck / falsely confirm it?
+Call SID: CAdf660859d522de3f34a6b7d7b4a0c954
+Saved: 20260625-203534
+============================================================
+
+AGENT: This call may be recorded for quality and training purposes. Para español, oprima el dos.
+AGENT: Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. Am I speaking with Maria?
+PATIENT: Yes, this is Maria Delgado. I’m calling to request a prescription refill.
+AGENT: Please provide your date of birth.
+PATIENT: Sure, my date of birth is July 4th, 2000.
+AGENT: Which medication would you like to refill today?
+PATIENT: Actually, forget the refill for now—I just need to know your office hours and whether you're open on Saturday.
+AGENT: I see you want a prescription refill, but it looks like you asked about office hours instead. Would you like to continue with your refill request, or do you want information about our clinic hours?
+PATIENT: I’d like to get the information about your office hours first. Could you tell me your hours and if you're open on Saturdays?
+AGENT: Our clinic is open Monday through Friday. We are closed on Saturdays. Would you like the specific hours for each day?
+PATIENT: Yes, please. Could you let me know the specific hours for each day? That would be really helpful.
+AGENT: Here are our hours: Monday, Tuesday, and Thursday from 9 a.m. to 4 p.m., Wednesday from 12 p.m. to 7 p.m., Friday from 9 a.m. to 12 p.m. Let me know if you need anything else.
+PATIENT: Thank you, that’s all I need for now. I really appreciate it. Goodbye!
+AGENT: You're welcome. Have a great day. Goodbye.
