@@ -99,19 +99,6 @@ smoke-test number. It cannot dial anything else.
 
 ---
 
-## Submitting (checklist)
-
-- [ ] ≥10 clean, lucid recordings (`recordings/*.mp3`) + matching transcripts
-- [ ] `BUGS.md` filled in with confirmed timestamps
-- [ ] `recordings/` and `transcripts/` committed (remove those lines from `.gitignore`, or
-      `git add -f recordings/ transcripts/`)
-- [ ] **No secrets committed** — `.env` is git-ignored; confirm before pushing
-- [ ] **Rotate** Twilio token, ngrok token, and OpenAI key before the repo goes public
-- [ ] Loom walkthrough (≤5 min) + AI-debugging screen recording (≤5 min)
-- [ ] Submission form: repo link, Loom link, and the single calling number in E.164
-
----
-
 ## Troubleshooting
 
 The Realtime API's wire format shifts between versions. Symptoms and fixes:
